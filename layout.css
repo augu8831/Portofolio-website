@@ -4,7 +4,8 @@
 }
 
 body {
-  background: #fcfcfa;
+  /* background: #d9d9d9; */
+  background: #e4e2d6;
   margin-top: 1rem;
   margin-left: 1rem;
   margin-right: 1rem;
@@ -41,16 +42,38 @@ li a {
 }
 
 .icons_footer {
-  position: fixed;
-  top: 45rem;
-  left: 87rem;
+  position: relative;
+  top: 10rem;
+  left: 8.5rem;
 }
 
 .rectangle {
+  margin-top: 10rem;
+  margin-left: 5rem;
   height: 20rem;
-  width: 35rem;
-  background-color: black;
+  width: 14rem;
+  /* background-color: rgb(156, 82, 82); */
+  background-color: #e4e2d6;
 }
+/* 
+.pind1 {
+    margin-top: 10rem;
+    margin-left: 5rem;
+    height: 20rem;
+    width: 14rem;
+    /* background-color: rgb(156, 82, 82); */
+    background-color: #e4e2d6;
+  }
+
+  .pind2 {
+    margin-top: 10rem;
+    margin-left: 5rem;
+    height: 20rem;
+    width: 14rem;
+    /* background-color: rgb(156, 82, 82); */
+    background-color: #e4e2d6;
+  } */
+
 
 .grid_1_1 {
   display: grid;
@@ -88,4 +111,41 @@ li a {
     text-decoration: none;
     color: #d95c19;
   }
-}
+
+  .rectangle {
+    margin-top: 7.5rem;
+    margin-left: 10rem;
+    height: 20rem;
+    width: 35rem;
+    background-color: white;
+  }
+  .name_footer {
+    position: relative;
+    top: 20rem;
+  }
+
+  .icons_footer {
+    position: relative;
+    top: 9rem;
+    left: 41.5rem;
+  }
+
+
+/* .pind1 {
+    margin-top: 10rem;
+    margin-left: 5rem;
+    height: 10rem;
+    width: 0.5rem;
+    /* background-color: rgb(156, 82, 82); */
+    /* background-color: #e4e2d6;
+  }
+
+  .pind2 {
+    margin-top: 10rem;
+    margin-left: 5rem;
+    height: 20rem;
+    width: 14rem;
+    background-color: rgb(156, 82, 82);
+    background-color: #e4e2d6; */
+  } 
+

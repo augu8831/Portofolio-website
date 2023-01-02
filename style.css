@@ -4,7 +4,8 @@
 }
 
 body {
-  background: #fcfcfa;
+  /* background: #fcfcfa; */
+  background-color: #edebe1;
 }
 
 p {
@@ -24,28 +25,29 @@ h1 {
 
 h2 {
   color: #1919d9;
-  font-family: objektiv-mk1, sans-serif;
-  font-weight: 200;
+  font-family: quasimoda, sans-serif;
+  font-weight: 400;
   font-style: bold;
   font-size: 1rem;
 }
 
 .h2 {
   position: fixed;
-  left: 35rem;
-  top: 25rem;
+  left: 13rem;
+  top: 23rem;
+  font-size: 0.6rem;
 }
 
 .h1 {
   position: fixed;
   top: 150px;
-  left: 5rem;
+  left: 0.5rem;
   writing-mode: vertical-rl;
   text-orientation: mixed;
   font-family: jeanne-moderno-titling, serif;
   font-weight: 500;
   font-style: normal;
-  font-size: 7rem;
+  font-size: 6rem;
   color: transparent;
   -webkit-text-fill-color: #1919d9;
   -webkit-text-stroke-width: 1px;
@@ -55,13 +57,13 @@ h2 {
 .h1_1 {
   position: fixed;
   top: 11rem;
-  left: 8.5rem;
+  left: 4rem;
   writing-mode: vertical-rl;
   text-orientation: sideways;
   font-family: jeanne-moderno-titling, serif;
   font-weight: 500;
   font-style: normal;
-  font-size: 7rem;
+  font-size: 6rem;
   color: transparent;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-width: 1px;
@@ -90,4 +92,42 @@ a {
 }
 
 @media (min-width: 600px) {
+  .h1 {
+    position: fixed;
+    top: 150px;
+    left: 5rem;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    font-family: jeanne-moderno-titling, serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 7rem;
+    color: transparent;
+    -webkit-text-fill-color: #1919d9;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: transparent;
+  }
+
+  .h1_1 {
+    position: fixed;
+    top: 11rem;
+    left: 8.5rem;
+    writing-mode: vertical-rl;
+    text-orientation: sideways;
+    font-family: jeanne-moderno-titling, serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 7rem;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #1919d9;
+  }
+
+  .h2 {
+    position: fixed;
+    left: 35rem;
+    top: 25rem;
+    font-size: 1rem;
+  }
 }
