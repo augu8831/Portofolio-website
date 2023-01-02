@@ -14,5 +14,80 @@ p {
   font-style: normal;
 }
 
+h1 {
+  font-family: jeanne-moderno-titling, serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 8rem;
+  color: #1919d9;
+}
+
+h2 {
+  color: #1919d9;
+  font-family: objektiv-mk1, sans-serif;
+  font-weight: 200;
+  font-style: bold;
+  font-size: 1rem;
+}
+
+.h2 {
+  position: fixed;
+  left: 35rem;
+  top: 25rem;
+}
+
+.h1 {
+  position: fixed;
+  top: 150px;
+  left: 5rem;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  font-family: jeanne-moderno-titling, serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 7rem;
+  color: transparent;
+  -webkit-text-fill-color: #1919d9;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: transparent;
+}
+
+.h1_1 {
+  position: fixed;
+  top: 11rem;
+  left: 8.5rem;
+  writing-mode: vertical-rl;
+  text-orientation: sideways;
+  font-family: jeanne-moderno-titling, serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 7rem;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #1919d9;
+}
+
+.footer_class {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+}
+
+.fa {
+  padding: 0;
+  padding-left: 3px;
+  padding-top: 5px;
+  font-size: 25px;
+  text-align: rigth;
+}
+
+a {
+  font-family: quasimoda, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-decoration: none;
+  color: #d95c19;
+}
+
 @media (min-width: 600px) {
 }

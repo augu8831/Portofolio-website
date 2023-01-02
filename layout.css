@@ -16,6 +16,7 @@ body {
 
 footer {
   display: flex;
+  justify-content: space-between;
   flex-flow: column wrap;
 }
 
@@ -34,12 +35,31 @@ li a {
   text-decoration: none;
 }
 
-a {
-  font-family: quasimoda, sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  text-decoration: none;
-  color: #d95c19;
+.name_footer {
+  position: relative;
+  top: 20rem;
+}
+
+.icons_footer {
+  position: fixed;
+  top: 45rem;
+  left: 87rem;
+}
+
+.rectangle {
+  height: 20rem;
+  width: 35rem;
+  background-color: black;
+}
+
+.grid_1_1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid_1_2 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
 }
 
 @media (min-width: 600px) {
