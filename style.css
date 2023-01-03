@@ -13,6 +13,9 @@ p {
   color: #08086c;
   font-family: objektiv-mk1, sans-serif;
   font-weight: 200;
+  font-size: 0.85rem;
+  line-height: 28px;
+  letter-spacing: 1px;
 }
 
 h1 {
@@ -43,6 +46,7 @@ h4 {
   font-family: quasimoda, sans-serif;
   font-weight: 400;
   font-size: 1.1rem;
+  padding-bottom: 1rem;
 }
 
 .h2 {
@@ -66,6 +70,23 @@ h4 {
   -webkit-text-fill-color: #1919d9;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: transparent;
+}
+
+.h3 {
+  color: #1919d9;
+  font-family: quasimoda, sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  text-align: right;
+}
+
+.h4 {
+  color: #1919d9;
+  font-family: quasimoda, sans-serif;
+  font-weight: 400;
+  font-size: 1.1rem;
+  text-align: right;
+  padding-right: 1rem;
 }
 
 .h1_1 {
@@ -95,6 +116,7 @@ h4 {
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #1919d9;
+  text-align: center;
 }
 
 .footer_class {
@@ -144,6 +166,14 @@ a {
   -webkit-text-stroke-color: #1919d9;
 }
 
+.h3_class {
+  position: relative;
+  left: 17.5rem;
+  top: 0.5rem;
+  writing-mode: vertical-rl;
+  text-orientation: sideways;
+}
+
 @media (min-width: 600px) {
   .h1 {
     position: absolute;
@@ -171,6 +201,20 @@ a {
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #1919d9;
+  }
+
+  .h1_2 {
+    font-family: jeanne-moderno-titling, serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 6rem;
+    color: #1919d9;
+    align-items: center;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #1919d9;
+    text-align: center;
   }
 
   .h2 {
