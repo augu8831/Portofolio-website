@@ -51,15 +51,17 @@ li a {
 }
 
 .name_footer {
-  position: relative;
+  /* position: relative;
   top: 0;
-  left: -21rem;
+  left: -21rem; */
+  text-align: left;
 }
 
 .icons_footer {
-  position: relative;
+  /* position: relative;
   top: 10rem;
-  left: 21.2rem;
+  left: 21.2rem; */
+  text-align: right;
 }
 
 .rectangle {
