@@ -53,8 +53,8 @@ h4 {
 
 .h1 {
   position: absolute;
-  top: 150px;
-  left: 0.5rem;
+  top: 10rem;
+  left: -14.5rem;
   /* writing-mode: vertical-rl;
   text-orientation: mixed; */
   font-family: jeanne-moderno-titling, serif;
@@ -86,9 +86,9 @@ h4 {
 }
 
 .h1_1 {
-  position: fixed;
-  top: 11rem;
-  left: 4rem;
+  position: absolute;
+  top: 5rem;
+  left: -11rem;
   /* writing-mode: vertical-rl;
   text-orientation: sideways; */
   -webkit-transform: rotate(-90deg);
@@ -145,31 +145,37 @@ a {
   font-family: quasimoda, sans-serif;
   font-weight: 400;
   font-style: bold;
-  font-size: 1.5rem;
+  font-size: 1.1rem;
 }
 
 .h1_work {
   font-family: jeanne-moderno-titling, serif;
   font-weight: 500;
   font-style: normal;
-  font-size: 7rem;
+  font-size: 4.5rem;
+  position: relative;
+  top: 2rem;
+  left: 1rem;
 }
 
 .h1_work1 {
   font-family: jeanne-moderno-titling, serif;
   font-weight: 500;
   font-style: normal;
-  font-size: 7rem;
+  font-size: 4.5rem;
   color: transparent;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #1919d9;
+  position: absolute;
+  top: 8rem;
+  left: 5rem;
 }
 
 .h3_class {
   position: relative;
-  left: 17.5rem;
-  top: 0.5rem;
+  left: 18rem;
+  top: 6.5rem;
   writing-mode: vertical-rl;
   text-orientation: sideways;
 }
@@ -263,5 +269,13 @@ a {
     top: 5rem;
     writing-mode: vertical-rl;
     text-orientation: sideways;
+  }
+
+  .link_text {
+    color: #1919d9;
+    font-family: quasimoda, sans-serif;
+    font-weight: 400;
+    font-style: bold;
+    font-size: 1.5rem;
   }
 }

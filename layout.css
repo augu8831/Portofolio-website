@@ -69,7 +69,7 @@ li a {
   height: 20rem;
   width: 14rem;
   /* background-color: rgb(156, 82, 82); */
-  background-color: #e4e2d6;
+  background-color: #ffffff;
 }
 
 .pind1 {
@@ -110,7 +110,7 @@ li a {
 .text_work1 {
   text-align: left;
   padding-bottom: 7rem;
-  top: 3rem;
+  top: 5rem;
   left: -2rem;
   position: absolute;
 }
@@ -118,26 +118,26 @@ li a {
 .text_work2 {
   text-align: right;
   padding-bottom: 7rem;
-  top: 13rem;
-  left: 18rem;
+  top: 15rem;
+  left: 8.5rem;
   position: absolute;
 }
 
 .text_work3 {
   text-align: left;
   padding-bottom: 7rem;
-  top: 23rem;
+  top: 25rem;
   left: -2rem;
   position: absolute;
 }
 
 .rectangle2 {
   position: relative;
-  margin-top: 1rem;
-  margin-left: 30rem;
-  margin-right: 30rem;
-  height: 50rem;
-  width: 20rem;
+  margin-top: 3rem;
+  margin-left: 5rem;
+  margin-right: 3rem;
+  height: 30rem;
+  width: 10rem;
   background-color: white;
 }
 
@@ -236,6 +236,29 @@ li a {
     height: 46rem;
     width: 0.1rem;
     background-color: #1919d9;
+  }
+  .text_work1 {
+    text-align: left;
+    padding-bottom: 7rem;
+    top: 3rem;
+    left: -2rem;
+    position: absolute;
+  }
+
+  .text_work2 {
+    text-align: right;
+    padding-bottom: 7rem;
+    top: 13rem;
+    left: 18rem;
+    position: absolute;
+  }
+
+  .text_work3 {
+    text-align: left;
+    padding-bottom: 7rem;
+    top: 23rem;
+    left: -2rem;
+    position: absolute;
   }
 
   .empty_col {
