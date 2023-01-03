@@ -248,7 +248,7 @@ li a {
   .grid_galleri {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 15px;
+    grid-gap: 10px;
   }
 
   /* .galleri_video {
