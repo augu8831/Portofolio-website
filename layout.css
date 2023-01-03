@@ -111,7 +111,7 @@ li a {
   text-align: left;
   padding-bottom: 7rem;
   top: 5rem;
-  left: -2rem;
+  left: -1rem;
   position: absolute;
 }
 
@@ -119,7 +119,7 @@ li a {
   text-align: right;
   padding-bottom: 7rem;
   top: 15rem;
-  left: 8.5rem;
+  left: 7.5rem;
   position: absolute;
 }
 
@@ -131,12 +131,52 @@ li a {
   position: absolute;
 }
 
+.text_work4 {
+  text-align: right;
+  padding-bottom: 7rem;
+  top: 35rem;
+  left: 7.5rem;
+  position: absolute;
+}
+
+.text_work_1 {
+  text-align: left;
+  padding-bottom: 7rem;
+  top: 6rem;
+  left: -3rem;
+  position: absolute;
+}
+
+.text_work_2 {
+  text-align: right;
+  padding-bottom: 7rem;
+  top: 16.5rem;
+  left: 8rem;
+  position: absolute;
+}
+
+.text_work_3 {
+  text-align: left;
+  padding-bottom: 7rem;
+  top: 26rem;
+  left: -3rem;
+  position: absolute;
+}
+
+.text_work_4 {
+  text-align: right;
+  padding-bottom: 7rem;
+  top: 36rem;
+  left: 8rem;
+  position: absolute;
+}
+
 .rectangle2 {
   position: relative;
   margin-top: 3rem;
   margin-left: 5rem;
   margin-right: 3rem;
-  height: 30rem;
+  height: 45rem;
   width: 10rem;
   background-color: white;
 }
@@ -203,39 +243,38 @@ li a {
 
   .rectangle2 {
     position: relative;
-    margin-top: 7rem;
+    margin-top: 1rem;
     margin-left: 30rem;
     margin-right: 30rem;
-    height: 28rem;
+    height: 76rem;
     width: 20rem;
     background-color: white;
   }
 
-  .name_footer {
+  .footer_class {
     position: relative;
-    top: 20rem;
+    top: 1rem;
   }
 
   .icons_footer {
-    position: -webkit-sticky;
-    position: sticky;
+    position: relative;
     left: 46rem;
   }
 
   .pind1 {
-    position: absolute;
-    height: 0.09rem;
+    position: relative;
+    height: 1px;
     width: 70rem;
     background-color: #1919d9;
   }
 
   .pind2 {
     position: fixed;
-    margin-top: 0rem;
+    margin-top: -10rem;
     margin-left: 85rem;
-    height: 46rem;
+    height: 48rem;
     width: 0.1rem;
-    background-color: #1919d9;
+    background: #1919d9;
   }
   .text_work1 {
     text-align: left;
@@ -248,16 +287,56 @@ li a {
   .text_work2 {
     text-align: right;
     padding-bottom: 7rem;
-    top: 13rem;
-    left: 18rem;
+    top: 23rem;
+    left: 14rem;
     position: absolute;
   }
 
   .text_work3 {
     text-align: left;
     padding-bottom: 7rem;
-    top: 23rem;
+    top: 43rem;
     left: -2rem;
+    position: absolute;
+  }
+
+  .text_work4 {
+    text-align: right;
+    padding-bottom: 7rem;
+    top: 63rem;
+    left: 14rem;
+    position: absolute;
+  }
+
+  .text_work_1 {
+    text-align: left;
+    padding-bottom: 7rem;
+    top: 5rem;
+    left: -4rem;
+    position: absolute;
+  }
+
+  .text_work_2 {
+    text-align: right;
+    padding-bottom: 7rem;
+    top: 25rem;
+    left: 15rem;
+    position: absolute;
+  }
+
+  .text_work_3 {
+    text-align: left;
+    padding-bottom: 7rem;
+    top: 45rem;
+    left: -4rem;
+    position: absolute;
+  }
+
+  .text_work_4 {
+    text-align: right;
+    padding-bottom: 7rem;
+    top: 65rem;
+    left: 15rem;
     position: absolute;
   }
 
