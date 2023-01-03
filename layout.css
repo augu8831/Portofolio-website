@@ -9,7 +9,7 @@ body {
 }
 
 .col {
-  margin: 2rem;
+  margin: 6rem;
 }
 
 footer {
@@ -156,6 +156,7 @@ li a {
   }
 
   .rectangle2 {
+    position: relative;
     margin-top: 7rem;
     margin-left: 30rem;
     margin-right: 30rem;
@@ -172,7 +173,6 @@ li a {
   .icons_footer {
     position: -webkit-sticky;
     position: sticky;
-    top: 5rem;
     left: 46rem;
   }
 
