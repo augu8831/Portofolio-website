@@ -29,6 +29,14 @@ img {
   margin: 3.5rem;
 }
 
+.col_about {
+  margin: 3.5rem;
+}
+
+.empty_col {
+  margin: 3.5rem;
+}
+
 footer {
   display: flex;
   justify-content: space-between;
