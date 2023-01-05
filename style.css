@@ -47,13 +47,13 @@ h4 {
   font-size: 1.1rem;
   padding-bottom: 1rem;
 }
-
+/* 
 .h2_forside {
   position: absolute;
   left: 13rem;
   top: 23rem;
   font-size: 0.6rem;
-}
+} */
 
 .h1 {
   position: absolute;
@@ -211,7 +211,12 @@ a {
   top: 6.5rem; */
   writing-mode: vertical-rl;
   text-orientation: mixed;
-  text-align: right;
+  position: fixed;
+  top: 10rem;
+  right: 7rem;
+  overflow-y: scroll;
+  writing-mode: verstical-rl;
+  text-orientation: mixed;
 }
 
 @media (min-width: 600px) {
@@ -325,7 +330,10 @@ a {
     /* position: relative; */
     /* left: 35rem;
     top: 5rem; */
-    text-align: right;
+    position: fixed;
+    top: 10rem;
+    right: 7rem;
+    overflow-y: scroll;
     writing-mode: verstical-rl;
     text-orientation: mixed;
   }
@@ -346,7 +354,7 @@ a {
     font-family: jeanne-moderno-titling, serif;
     font-weight: 100;
     font-style: normal;
-    font-size: 3rem;
+    font-size: 2.9rem;
     color: transparent;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke-width: 1px;

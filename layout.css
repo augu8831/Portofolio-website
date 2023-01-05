@@ -51,7 +51,16 @@ img {
 }
 
 .name_footer {
+  /* position: -webkit-sticky;
   position: sticky;
+  top: 0;
+  padding-top: 1rem; */
+  position: fixed;
+  top: 36.5rem;
+  left: 0;
+  bottom: 1px;
+  width: 27px;
+  overflow-y: scroll;
 }
 
 footer {
@@ -91,9 +100,13 @@ li a {
 
 .icons_footer {
   /* position: relative;
-  top: 10rem;
-  left: 21.2rem; */
-  text-align: right;
+  left: 46rem; */
+  padding-right: 2rem;
+  right: 0;
+  position: fixed;
+  top: 46rem;
+  bottom: 1px;
+  overflow-y: scroll;
 }
 
 .rectangle {
@@ -291,13 +304,19 @@ li a {
 @media (min-width: 600px) {
   .col {
     margin-top: 5rem;
-    margin-right: 5rem;
-    margin-left: 5rem;
+    margin-right: 11rem;
+    margin-left: 7rem;
+  }
+
+  .col_xx {
+    margin-top: 9rem;
+    margin-right: 7rem;
+    margin-left: 7rem;
   }
 
   .col_x {
-    margin-right: 7rem;
-    margin-left: 5rem;
+    margin-right: 10rem;
+    margin-left: 7rem;
   }
 
   /* .col_name {
@@ -351,7 +370,16 @@ li a {
   }
 
   .name_footer {
+    /* position: -webkit-sticky;
     position: sticky;
+    top: 0;
+    padding-top: 1rem; */
+    position: fixed;
+    top: 36.5rem;
+    left: 0;
+    bottom: 1px;
+    width: 27px;
+    overflow-y: scroll;
   }
 
   .footer_class {
@@ -365,6 +393,12 @@ li a {
   .icons_footer {
     /* position: relative;
     left: 46rem; */
+    padding-right: 2rem;
+    right: 0;
+    position: fixed;
+    top: 46rem;
+    bottom: 1px;
+    overflow-y: scroll;
   }
 
   .pind1 {
