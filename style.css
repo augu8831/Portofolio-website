@@ -273,6 +273,30 @@ a {
     font-size: 1rem;
   }
 
+  .h1_x {
+    position: relative;
+    top: 5rem;
+    left: 5rem;
+    font-family: jeanne-moderno-titling, serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 5rem;
+  }
+
+  .h1_xx {
+    position: absolute;
+    left: 10rem;
+    top: 12rem;
+    font-family: jeanne-moderno-titling, serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 5rem;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #1919d9;
+  }
+
   .h1_work {
     position: relative;
     top: 5rem;
@@ -288,7 +312,7 @@ a {
     left: 10rem;
     top: 12rem;
     font-family: jeanne-moderno-titling, serif;
-    font-weight: 500;
+    font-weight: 100;
     font-style: normal;
     font-size: 5rem;
     color: transparent;
@@ -314,6 +338,21 @@ a {
     text-align: right;
   }
 
+  .link_text1 {
+    /* position: absolute;
+    top: 0;
+    left:0; */
+    color: #1919d9;
+    font-family: jeanne-moderno-titling, serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 3rem;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #1919d9;
+  }
+
   .link_text {
     /* color: #1919d9;
     font-family: quasimoda, sans-serif;
@@ -323,23 +362,10 @@ a {
     font-family: jeanne-moderno-titling, serif;
     font-weight: 500;
     font-style: normal;
-    font-size: 7rem;
-    color: #1919d9;
-  }
-
-  .link_text1 {
-    /* color: #1919d9;
-    font-family: quasimoda, sans-serif;
-    font-weight: 400;
-    font-style: bold;
-    font-size: 1.5rem; */
-    font-family: jeanne-moderno-titling, serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 7rem;
-    color: transparent;
+    font-size: 15rem;
+    /* color: transparent;
     -webkit-text-fill-color: transparent;
-    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-width: 1px; */
     -webkit-text-stroke-color: #1919d9;
   }
 }
