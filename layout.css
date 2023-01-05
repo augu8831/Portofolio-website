@@ -203,6 +203,38 @@ li a {
   object-fit: cover;
 }
 
+.img_galleri_04 {
+  position: relative;
+  width: 300px;
+  height: 800px;
+  /* aspect-ratio: 3.1/10; */
+  top: 0%;
+}
+
+.img_galleri_04_shots {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  /* aspect-ratio: 3.1/10; */
+  top: 0%;
+}
+
+.img_galleri_04_flaske {
+  position: relative;
+  width: 125px;
+  height: 400px;
+  /* aspect-ratio: 3.1/10; */
+  top: 0%;
+}
+
+.img_galleri_04xx {
+  position: relative;
+  width: 1000px;
+  height: 250px;
+  /* aspect-ratio: 3.1/10; */
+  top: 0%;
+}
+
 .galleri_img,
 .galleri_img2,
 .galleri_img4,
