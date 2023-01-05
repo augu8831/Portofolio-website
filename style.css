@@ -13,6 +13,10 @@ p {
   letter-spacing: 1px;
 }
 
+/* .delay_galleri {
+  animation-delay: 250ms;
+} */
+
 h1 {
   font-family: jeanne-moderno-titling, serif;
   font-weight: 500;
@@ -117,11 +121,15 @@ h4 {
 }
 
 .footer_class {
-  -webkit-transform: rotate(-90deg);
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
   font-family: quasimoda, sans-serif;
-  font-size: 1rem;
-  letter-spacing: 1px;
+  font-size: 0.8rem;
+  letter-spacing: 2px;
   color: #08086c;
+  font-family: quasimoda, sans-serif;
+  font-weight: 500;
+  padding-bottom: 1rem;
 }
 
 .fa {
@@ -198,11 +206,12 @@ a {
 }
 
 .h3_class {
-  position: relative;
+  /* position: relative;
   left: 18rem;
-  top: 6.5rem;
+  top: 6.5rem; */
   writing-mode: vertical-rl;
-  text-orientation: sideways;
+  text-orientation: mixed;
+  text-align: right;
 }
 
 @media (min-width: 600px) {
@@ -289,11 +298,12 @@ a {
   }
 
   .h3_class {
-    position: relative;
-    left: 80rem;
-    top: 5rem;
-    writing-mode: vertical-rl;
-    text-orientation: sideways;
+    /* position: relative; */
+    /* left: 35rem;
+    top: 5rem; */
+    text-align: right;
+    writing-mode: verstical-rl;
+    text-orientation: mixed;
   }
 
   .h3 {
