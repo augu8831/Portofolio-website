@@ -35,7 +35,7 @@ img {
   filter: grayscale();
 }
 .col {
-  margin: 3.5rem;
+  margin: 3.6rem;
 }
 
 .col_x {
@@ -56,17 +56,19 @@ img {
   top: 0;
   padding-top: 1rem; */
   position: fixed;
-  top: 36.5rem;
+  top: 39rem;
   left: 0;
   bottom: 1px;
   width: 27px;
-  overflow-y: scroll;
+  /* overflow-y: scroll; */
 }
 
-footer {
-  display: flex;
-  justify-content: space-between;
-  flex-flow: column wrap;
+.footer_class {
+  color: #1919d9;
+  font-family: quasimoda, sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  padding-bottom: 1rem;
 }
 
 ul {
@@ -84,29 +86,14 @@ li a {
   text-decoration: none;
 }
 
-/* .footer_class {
-  color: #1919d9;
-  font-family: quasimoda, sans-serif;
-  font-weight: 400;
-  font-size: 1.1rem;
-  padding-bottom: 1rem;
-} */
-
-/* .name_footer {
-  position: absolute;
-  top: 0;
-  left: 0rem;
-} */
-
 .icons_footer {
   /* position: relative;
   left: 46rem; */
-  padding-right: 2rem;
   right: 0;
   position: fixed;
   top: 46rem;
   bottom: 1px;
-  overflow-y: scroll;
+  /* overflow-y: scroll; */
 }
 
 .rectangle {
@@ -129,12 +116,11 @@ li a {
 
 .pind2 {
   position: fixed;
-  margin-top: 1.5rem;
-  margin-left: 21rem;
-  margin-right: 1rem;
-  height: 46rem;
+  top: 5rem;
+  left: 2.5rem;
+  height: 50rem;
   width: 0.1rem;
-  background-color: #1919d9;
+  background: #1919d9;
 }
 
 .grid_1_1 {
@@ -304,7 +290,7 @@ li a {
 @media (min-width: 600px) {
   .col {
     margin-top: 5rem;
-    margin-right: 11rem;
+    margin-right: 7rem;
     margin-left: 7rem;
   }
 
@@ -375,47 +361,47 @@ li a {
     top: 0;
     padding-top: 1rem; */
     position: fixed;
-    top: 36.5rem;
+    top: 39rem;
     left: 0;
     bottom: 1px;
     width: 27px;
-    overflow-y: scroll;
+    /* overflow-y: scroll; */
   }
 
   .footer_class {
     color: #1919d9;
     font-family: quasimoda, sans-serif;
     font-weight: 400;
-    font-size: 1.1rem;
+    font-size: 0.5rem;
     padding-bottom: 1rem;
   }
 
   .icons_footer {
     /* position: relative;
     left: 46rem; */
-    padding-right: 2rem;
     right: 0;
     position: fixed;
     top: 46rem;
     bottom: 1px;
-    overflow-y: scroll;
+    /* overflow-y: scroll; */
   }
 
-  .pind1 {
+  /* .pind1 {
     position: relative;
     height: 1px;
     width: 70rem;
     background-color: #1919d9;
-  }
+  } */
 
   .pind2 {
     position: fixed;
-    margin-top: 1rem;
-    margin-left: 85rem;
-    height: 48rem;
+    top: 5rem;
+    left: 2.5rem;
+    height: 50rem;
     width: 0.1rem;
     background: #1919d9;
   }
+
   .text_work1 {
     text-align: left;
     padding-bottom: 7rem;
