@@ -162,7 +162,23 @@ a {
   font-weight: 500;
   font-style: normal;
   font-size: 3rem;
+}
+
+.link_textx {
+  /* color: #1919d9;
+  font-family: quasimoda, sans-serif;
+  font-weight: 400;
+  font-style: bold;
+  font-size: 1.5rem; */
+  font-family: jeanne-moderno-titling, serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 15rem;
   color: #1919d9;
+  /* color: transparent;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px; */
+  /* -webkit-text-stroke-color: #1919d9; */
 }
 
 .link_text1 {
@@ -282,11 +298,15 @@ nav {
 }
 
 .text {
-  color: rgb(255, 102, 0);
   padding: 16px 32px;
-  font-family: quasimoda2, sans-serif;
-  font-weight: 200;
   font-size: 1.5rem;
+  font-family: jeanne-moderno-titling, serif;
+  font-weight: 100;
+  font-style: normal;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #08086c;
 }
 
 @media (min-width: 600px) {
@@ -372,6 +392,30 @@ nav {
     -webkit-text-stroke-color: #1919d9;
   }
 
+  .h1_about {
+    position: relative;
+    top: 0rem;
+    left: -5rem;
+    font-family: jeanne-moderno-titling, serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 8rem;
+  }
+
+  .h1_aboutx {
+    position: relative;
+    left: 0rem;
+    top: -3rem;
+    font-family: jeanne-moderno-titling, serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 8rem;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #1919d9;
+  }
+
   .h1_work {
     position: relative;
     top: 5rem;
@@ -424,7 +468,7 @@ nav {
     font-family: jeanne-moderno-titling, serif;
     font-weight: 100;
     font-style: normal;
-    font-size: 2.9rem;
+    font-size: 2.3rem;
     color: transparent;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke-width: 1px;
@@ -441,6 +485,22 @@ nav {
     font-weight: 500;
     font-style: normal;
     font-size: 15rem;
+    /* color: transparent;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px; */
+    -webkit-text-stroke-color: #1919d9;
+  }
+  .link_textx {
+    /* color: #1919d9;
+    font-family: quasimoda, sans-serif;
+    font-weight: 400;
+    font-style: bold;
+    font-size: 1.5rem; */
+    font-family: jeanne-moderno-titling, serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 15rem;
+    text-align: right;
     /* color: transparent;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke-width: 1px; */
