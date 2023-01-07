@@ -9,13 +9,18 @@ html {
 }
 
 body {
-  /* background: #d9d9d9; */
-  /* background: #e4e2d6; */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  margin-bottom: 5rem;
 }
 
 footer p {
   text-align: right;
-  margin-top: 5rem;
+  margin-top: auto;
   margin-right: 0.5rem;
   font-size: 0.8rem;
   color: #ff7a59;
@@ -626,20 +631,8 @@ li a {
     height: 350px;
   }
 
-  .col_under_img {
-    position: relative;
-    left: 0rem;
-    margin-top: 5rem;
-    margin-right: 7rem;
-    margin-left: 7rem;
-  }
   .col_textbox {
-    position: relative;
-    top: -12rem;
-    left: -9rem;
-    margin-top: 5rem;
-    margin-right: 20rem;
-    margin-left: 15rem;
+    margin: 5rem;
   }
   .col_projects {
     margin-top: 0;
@@ -674,7 +667,16 @@ li a {
   .oversigt_projects {
     margin-top: 8.5rem;
   }
+
   aside {
     float: right;
+    margin: 0 1.5%;
+    width: 30%;
+  }
+
+  .section {
+    float: left;
+    margin: 0 1.5%;
+    width: 63%;
   }
 }
