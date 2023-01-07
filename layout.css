@@ -632,7 +632,7 @@ li a {
   }
 
   .col_textbox {
-    margin: 5rem;
+    margin: 1rem;
   }
   .col_projects {
     margin-top: 0;
@@ -664,19 +664,19 @@ li a {
     font-style: normal;
   }
 
-  .oversigt_projects {
-    margin-top: 8.5rem;
-  }
-
   aside {
-    float: right;
+    float: left;
     margin: 0 1.5%;
     width: 30%;
   }
 
   .section {
-    float: left;
+    float: right;
     margin: 0 1.5%;
     width: 63%;
+  }
+
+  .col_aboutme {
+    margin: 1rem;
   }
 }
