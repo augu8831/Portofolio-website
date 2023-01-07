@@ -13,6 +13,18 @@ body {
   background: #e4e2d6;
 }
 
+footer p {
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: 1rem;
+  font-size: 0.8rem;
+  color: #d95c19;
+  font-family: objektiv-mk1, sans-serif;
+  letter-spacing: 2px;
+  font-weight: 400;
+  font-style: normal;
+}
+
 img {
   max-width: 100%;
   height: auto;
@@ -33,7 +45,17 @@ img {
 .img_about {
   border-radius: 50%;
   filter: grayscale();
+  width: 400px;
+  height: 100%;
 }
+
+.col_under_img {
+  margin: 3.6rem;
+}
+.col_textbox {
+  margin: 3.6rem;
+}
+
 .col {
   margin: 3.6rem;
 }
@@ -56,7 +78,7 @@ img {
     top: 0;
     padding-top: 1rem; */
   position: fixed;
-  top: 5.5rem;
+  top: 9rem;
   left: 0;
   bottom: 1px;
   width: 27px;
@@ -109,17 +131,17 @@ li a {
   background-color: #ffffff;
 }
 
-.pind1 {
+/* .pind1 {
   position: absolute;
   margin-top: 46rem;
   height: 0.09rem;
   width: 18rem;
   background-color: #1919d9;
-}
+} */
 
 .pind2 {
   position: fixed;
-  top: 5rem;
+  top: 7rem;
   left: 2.5rem;
   height: 50rem;
   width: 0.1rem;
@@ -343,6 +365,7 @@ li a {
     position: relative;
     margin-top: 12rem;
     margin-left: 10rem;
+    left: 5rem;
     height: 20rem;
     width: 35rem;
     background-color: white;
@@ -591,5 +614,31 @@ li a {
     height: 400px;
     /* aspect-ratio: 3.1/10; */
     top: 10%;
+  }
+
+  .img_about {
+    position: relative;
+    top: -9rem;
+    left: 25rem;
+    border-radius: 50%;
+    filter: grayscale();
+    width: 400px;
+    height: 400px;
+  }
+
+  .col_under_img {
+    position: relative;
+    left: 8rem;
+    margin-top: 5rem;
+    margin-right: 7rem;
+    margin-left: 7rem;
+  }
+  .col_textbox {
+    position: relative;
+    top: -12rem;
+    left: -9rem;
+    margin-top: 5rem;
+    margin-right: 20rem;
+    margin-left: 15rem;
   }
 }
