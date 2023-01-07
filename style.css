@@ -138,13 +138,14 @@ h4 {
   padding: 0;
   padding-left: 3px;
   padding-top: 5px;
-  font-size: 20px;
+  font-size: 23px;
   text-align: rigth;
 }
 
 a {
   font-family: objektiv-mk1, sans-serif;
-  font-weight: 500;
+  /* letter-spacing: 2px; */
+  font-weight: 400;
   font-style: normal;
   font-size: 0.8rem;
   font-style: normal;
@@ -165,7 +166,8 @@ a {
   font-family: jeanne-moderno-titling, serif;
   font-weight: 500;
   font-style: normal;
-  font-size: 4rem;
+  font-size: 5.9rem;
+  align-items: center;
   /* border: 1px solid #1919d9; */
 }
 
@@ -178,8 +180,9 @@ a {
   font-family: jeanne-moderno-titling, serif;
   font-weight: 500;
   font-style: normal;
-  font-size: 4rem;
+  font-size: 5.9rem;
   color: #1919d9;
+  align-items: center;
   /* color: transparent;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-width: 1px; */
@@ -195,7 +198,7 @@ a {
   font-family: jeanne-moderno-titling, serif;
   font-weight: 500;
   font-style: normal;
-  font-size: 3rem;
+  font-size: 5rem;
   color: transparent;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-width: 1px;
@@ -240,11 +243,17 @@ a {
   text-orientation: mixed;
 }
 
+.h3_class1 {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  margin-left: 2.5rem;
+}
+
 .h1_x {
   font-family: jeanne-moderno-titling, serif;
   font-weight: 500;
   font-style: normal;
-  font-size: 3rem;
+  font-size: 5rem;
 }
 
 .h1_xx {
@@ -420,7 +429,7 @@ nav {
   .h1_about {
     position: relative;
     top: 0rem;
-    left: -1rem;
+    left: 0rem;
     font-family: jeanne-moderno-titling, serif;
     font-weight: 500;
     font-style: normal;
@@ -477,6 +486,17 @@ nav {
     text-orientation: mixed;
   }
 
+  .h3_class1 {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    margin-top: 1rem;
+    margin-left: 7rem;
+  }
+
+  /* .p_class {
+    margin-top: 4rem;
+  } */
+
   .h3 {
     color: #1919d9;
     font-family: quasimoda, sans-serif;
@@ -510,10 +530,12 @@ nav {
     font-weight: 500;
     font-style: normal;
     font-size: 13.7rem;
+    margin: 1rem;
+    color: #1919d9;
     /* color: transparent;
     -webkit-text-fill-color: transparent;
-    -webkit-text-stroke-width: 1px; */
-    -webkit-text-stroke-color: #1919d9;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #1919d9; */
   }
   .link_textx {
     /* color: #1919d9;
@@ -525,6 +547,7 @@ nav {
     font-weight: 500;
     font-style: normal;
     font-size: 13.7rem;
+    margin: 1rem;
     /* color: transparent;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke-width: 1px; */
