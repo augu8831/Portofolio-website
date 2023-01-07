@@ -18,7 +18,7 @@ footer p {
   margin-top: 5rem;
   margin-bottom: 1rem;
   font-size: 0.8rem;
-  color: #d95c19;
+  color: #ff7a59;
   font-family: objektiv-mk1, sans-serif;
   letter-spacing: 2px;
   font-weight: 400;
@@ -58,6 +58,22 @@ img {
 
 .col {
   margin: 3.6rem;
+}
+
+.col_projects {
+  margin-top: 0;
+  margin-left: 2.5rem;
+  border: 1px solid #1919d9;
+}
+
+.center {
+  background: #ff7a59;
+  width: 310px;
+  height: 310px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  text-align: center;
 }
 
 .col_x {

@@ -149,7 +149,7 @@ a {
   font-size: 0.8rem;
   font-style: normal;
   text-decoration: none;
-  color: #d95c19;
+  color: #ff7a59;
 }
 
 /* .link_text {
@@ -166,6 +166,7 @@ a {
   font-weight: 500;
   font-style: normal;
   font-size: 4rem;
+  /* border: 1px solid #1919d9; */
 }
 
 .link_textx {
@@ -259,7 +260,7 @@ a {
 
 nav {
   --les-than: 800;
-  --burger-lines: #d95c19;
+  --burger-lines: #ff7a59;
   --burger-border: none;
 }
 
@@ -508,7 +509,7 @@ nav {
     font-family: jeanne-moderno-titling, serif;
     font-weight: 500;
     font-style: normal;
-    font-size: 15rem;
+    font-size: 13.7rem;
     /* color: transparent;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke-width: 1px; */
@@ -523,8 +524,7 @@ nav {
     font-family: jeanne-moderno-titling, serif;
     font-weight: 500;
     font-style: normal;
-    font-size: 15rem;
-    text-align: right;
+    font-size: 13.7rem;
     /* color: transparent;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke-width: 1px; */
