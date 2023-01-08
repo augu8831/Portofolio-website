@@ -15,7 +15,7 @@ body {
 }
 
 header {
-  margin-bottom: 5rem;
+  margin-bottom: 7rem;
 }
 
 footer p {
@@ -60,9 +60,13 @@ img {
 }
 
 .col_projects {
-  margin-top: 0;
-  margin-left: 2.5rem;
+  /* margin: 1rem; */
   border: 1px solid #1919d9;
+  margin-left: 2.5rem;
+}
+
+.col_portofolio {
+  margin: 1rem;
 }
 
 .oversigt_projects {
@@ -92,18 +96,13 @@ img {
   margin: 3.5rem;
 }
 
-.name_footer {
-  /* position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    padding-top: 1rem; */
+/* .name_footer {
   position: fixed;
   top: 9rem;
   left: 0;
   bottom: 1px;
   width: 27px;
   /* overflow-y: scroll; */
-}
 
 .icons_footer {
   position: fixed;
@@ -176,7 +175,7 @@ li a {
 
 .grid_1_1_1 {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
 }
 .col_work {
   margin: 35rem;
@@ -329,10 +328,18 @@ li a {
 }
 
 @media (min-width: 600px) {
+  header {
+    margin-bottom: 5rem;
+  }
+
   .col {
     margin-top: 5rem;
     margin-right: 7rem;
     margin-left: 7rem;
+  }
+
+  .col_portofolio {
+    margin: 1rem;
   }
 
   .col_xx {
@@ -345,11 +352,6 @@ li a {
     margin-right: 10rem;
     margin-left: 7rem;
   }
-
-  /* .col_name {
-    margin: 0.05rem;
-    text-align: left;
-  } */
 
   ul {
     list-style-type: none;
@@ -526,6 +528,11 @@ li a {
     display: grid;
     grid-template-columns: 2fr 1fr;
   }
+
+  .grid_1_1_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 4fr;
+  }
   .col_about {
     margin: 3.5rem;
     padding-top: 14.5rem;
@@ -635,9 +642,8 @@ li a {
     margin: 1rem;
   }
   .col_projects {
-    margin-top: 0;
-    margin-left: 2.5rem;
     border: 1px solid #1919d9;
+    margin-left: 2.5rem;
   }
 
   .center {
@@ -678,5 +684,11 @@ li a {
 
   .col_aboutme {
     margin: 1rem;
+  }
+
+  .col_opgavetekst {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-right: 1rem;
   }
 }

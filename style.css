@@ -246,7 +246,8 @@ a {
 .h3_class1 {
   writing-mode: vertical-rl;
   text-orientation: mixed;
-  margin-left: 2.5rem;
+  margin-left: -5rem;
+  margin-top: 1rem;
 }
 
 .h1_x {
@@ -489,8 +490,9 @@ nav {
   .h3_class1 {
     writing-mode: vertical-rl;
     text-orientation: mixed;
-    margin-top: 1rem;
-    margin-left: 7rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
   }
 
   /* .p_class {
