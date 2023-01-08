@@ -8,6 +8,10 @@ html {
   box-sizing: border-box;
 }
 
+/* section {
+  margin-top: 3rem;
+} */
+
 body {
   min-height: 100vh;
   display: flex;
@@ -31,7 +35,8 @@ footer p {
 }
 
 img {
-  max-width: 100%;
+  /* max-width: 100%; */
+  width: 100%;
   height: auto;
   display: block;
 }
@@ -44,8 +49,8 @@ img {
 .img_about {
   border-radius: 50%;
   filter: grayscale();
-  width: 400px;
-  height: 100%;
+  width: 250px;
+  height: 250px;
 }
 
 .col_under_img {
@@ -56,7 +61,11 @@ img {
 }
 
 .col {
-  margin: 3.6rem;
+  margin: 2rem;
+}
+
+.col_aboutme {
+  margin: 2rem;
 }
 
 .col_projects {
@@ -89,7 +98,7 @@ img {
 }
 
 .col_about {
-  margin: 3.5rem;
+  margin-left: 3rem;
 }
 
 .empty_col {
@@ -133,7 +142,7 @@ li a {
 
 .rectangle {
   position: relative;
-  margin-top: 10rem;
+  margin-top: 5rem;
   margin-left: 5rem;
   height: 20rem;
   width: 14rem;
@@ -308,7 +317,7 @@ li a {
   height: 60px;
   /* aspect-ratio: 3.1/10; */
   top: 20%;
-  left: 20;
+  /* left: 20; */
 }
 
 .img_galleri_04x {
@@ -333,9 +342,9 @@ li a {
   }
 
   .col {
-    margin-top: 5rem;
-    margin-right: 7rem;
-    margin-left: 7rem;
+    margin-top: 2rem;
+    margin-right: 5rem;
+    margin-left: 5rem;
   }
 
   .col_portofolio {
@@ -378,15 +387,16 @@ li a {
 
   .rectangle {
     position: relative;
-    margin-top: 12rem;
-    margin-left: 10rem;
-    left: 5rem;
+    /* margin-top: 12rem; */
+    /* margin-left: 10rem; */
+    top: 2rem;
+    left: 7rem;
     height: 20rem;
     width: 35rem;
     background-color: white;
   }
 
-  .rectangle2 {
+  /* .rectangle2 {
     position: relative;
     margin-top: 1rem;
     margin-left: 30rem;
@@ -394,7 +404,7 @@ li a {
     height: 76rem;
     width: 20rem;
     background-color: white;
-  }
+  } */
 
   .name_footer {
     /* position: -webkit-sticky;
@@ -672,23 +682,96 @@ li a {
 
   aside {
     float: left;
-    margin: 0 1.5%;
+    /* margin: 0 1.5%; */
     width: 30%;
   }
 
   .section {
     float: right;
-    margin: 0 1.5%;
+    /* margin: 0 1.5%; */
     width: 63%;
   }
 
   .col_aboutme {
-    margin: 1rem;
+    margin-left: 7rem;
   }
 
   .col_opgavetekst {
     margin-top: 2rem;
     margin-bottom: 2rem;
     margin-right: 1rem;
+  }
+}
+
+/* Slideshow container */
+.slides {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: #0037ff;
+  font-weight: lighter;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(253, 253, 253, 0.631);
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 7px;
+  width: 7px;
+  margin: 0 2px;
+  background-color: #0037ff;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #e6e4e4;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
   }
 }
