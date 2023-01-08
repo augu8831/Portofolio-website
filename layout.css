@@ -342,7 +342,12 @@ li a {
   }
 
   .col {
-    margin-top: 2rem;
+    margin-top: 5rem;
+    margin-right: 5rem;
+    margin-left: 5rem;
+  }
+
+  .article_col {
     margin-right: 5rem;
     margin-left: 5rem;
   }
