@@ -46,13 +46,19 @@ img {
   grid-template-columns: 90% 0.5fr;
 }
 
-.img_about {
+/* .img_about {
   border-radius: 50%;
   filter: grayscale();
-  width: 250px;
-  height: 250px;
-}
+  width: 100%;
+  height: auto;
+} */
 
+aside img {
+  border-radius: 50%;
+  filter: grayscale();
+  width: 100%;
+  height: auto;
+}
 .col_under_img {
   margin: 3.6rem;
 }
@@ -601,7 +607,6 @@ li a {
     position: relative;
     width: 300px;
     height: 800px;
-    /* aspect-ratio: 3.1/10; */
     top: 0%;
     left: 0%;
   }
@@ -610,7 +615,6 @@ li a {
     position: relative;
     width: 200px;
     height: 200px;
-    /* aspect-ratio: 3.1/10; */
     top: 10%;
     left: 20%;
   }
@@ -619,7 +623,6 @@ li a {
     position: relative;
     width: 125px;
     height: 400px;
-    /* aspect-ratio: 3.1/10; */
     top: 0%;
   }
 
@@ -627,7 +630,6 @@ li a {
     position: relative;
     width: 125px;
     height: 400px;
-    /* aspect-ratio: 3.1/10; */
     top: 0%;
     left: 50%;
   }
@@ -636,7 +638,6 @@ li a {
     position: relative;
     width: 1000px;
     height: 250px;
-    /* aspect-ratio: 3.1/10; */
     top: 20%;
     left: 20;
   }
@@ -645,16 +646,15 @@ li a {
     position: relative;
     width: 600px;
     height: 400px;
-    /* aspect-ratio: 3.1/10; */
     top: 10%;
   }
-
+  /* 
   .img_about {
     border-radius: 50%;
     filter: grayscale();
     width: 350px;
     height: 350px;
-  }
+  } */
 
   .col_textbox {
     margin: 1rem;
@@ -710,19 +710,33 @@ li a {
   }
 
   aside {
-    float: left;
+    float: right;
     /* margin: 0 1.5%; */
-    width: 30%;
+    width: 40%;
+  }
+
+  aside img {
+    border-radius: 50%;
+    filter: grayscale();
+    width: 100%;
+    height: auto;
+  }
+
+  aside p {
+    text-align: center;
   }
 
   .section {
-    float: right;
+    float: left;
     /* margin: 0 1.5%; */
-    width: 63%;
+    width: 60%;
   }
 
   .col_aboutme {
-    margin-left: 7rem;
+    margin-top: 0;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
   }
 
   .col_opgavetekst {
@@ -732,19 +746,16 @@ li a {
   }
 }
 
-/* Slideshow container */
 .slides {
   max-width: 1000px;
   position: relative;
   margin: auto;
 }
 
-/* Hide the images by default */
 .mySlides {
   display: none;
 }
 
-/* Next & previous buttons */
 .prev,
 .next {
   cursor: pointer;
@@ -761,19 +772,16 @@ li a {
   user-select: none;
 }
 
-/* Position the "next button" to the right */
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a black background color with a little bit see-through */
 .prev:hover,
 .next:hover {
   background-color: rgba(253, 253, 253, 0.631);
 }
 
-/* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
   height: 7px;
@@ -790,7 +798,6 @@ li a {
   background-color: #e6e4e4;
 }
 
-/* Fading animation */
 .fade {
   animation-name: fade;
   animation-duration: 1.5s;
