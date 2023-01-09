@@ -155,21 +155,12 @@ a {
 
 /* .link_text {
   color: #1919d9;
-  font-family: quasimoda, sans-serif;
-  font-weight: 400;
-  font-style: bold;
-  font-size: 1.1rem;
-} */
-
-.link_text {
-  color: #1919d9;
   font-family: jeanne-moderno-titling, serif;
   font-weight: 500;
   font-style: normal;
   font-size: 5.9rem;
-  align-items: center;
-  /* border: 1px solid #1919d9; */
-}
+  text-align: center; */
+/* border: 1px solid #1919d9; */
 
 .link_textx {
   /* color: #1919d9;
@@ -177,12 +168,12 @@ a {
   font-weight: 400;
   font-style: bold;
   font-size: 1.5rem; */
-  font-family: jeanne-moderno-titling, serif;
+  /* font-family: jeanne-moderno-titling, serif;
   font-weight: 500;
   font-style: normal;
   font-size: 5.9rem;
   color: #1919d9;
-  align-items: center;
+  align-items: center; */
   /* color: transparent;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-width: 1px; */
@@ -195,14 +186,14 @@ a {
   font-weight: 400;
   font-style: bold;
   font-size: 1.5rem; */
-  font-family: jeanne-moderno-titling, serif;
+  /* font-family: jeanne-moderno-titling, serif;
   font-weight: 500;
   font-style: normal;
   font-size: 5rem;
   color: transparent;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: #1919d9;
+  -webkit-text-stroke-color: #1919d9; */
 }
 
 .h1_work {
@@ -243,12 +234,12 @@ a {
   text-orientation: mixed;
 }
 
-.h3_class1 {
+/* .h3_class1 {
   writing-mode: vertical-rl;
   text-orientation: mixed;
   margin-left: -5rem;
   margin-top: 1rem;
-}
+} */
 
 .h1_x {
   font-family: jeanne-moderno-titling, serif;
@@ -489,13 +480,13 @@ nav {
     text-orientation: mixed;
   }
 
-  .h3_class1 {
+  /* .h3_class1 {
     writing-mode: vertical-rl;
     text-orientation: mixed;
     margin-top: 2rem;
     margin-bottom: 2rem;
     margin-left: 2rem;
-  }
+  } */
 
   /* .p_class {
     margin-top: 4rem;
@@ -513,7 +504,7 @@ nav {
     /* position: absolute;
     top: 0;
     left:0; */
-    color: #1919d9;
+    /* color: #1919d9;
     font-family: jeanne-moderno-titling, serif;
     font-weight: 100;
     font-style: normal;
@@ -521,40 +512,40 @@ nav {
     color: transparent;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #1919d9;
+    -webkit-text-stroke-color: #1919d9; */
   }
 
-  .link_text {
-    /* color: #1919d9;
+  /* .link_text { */
+  /* color: #1919d9;
     font-family: quasimoda, sans-serif;
     font-weight: 400;
     font-style: bold;
     font-size: 1.5rem; */
-    font-family: jeanne-moderno-titling, serif;
+  /* font-family: jeanne-moderno-titling, serif;
     font-weight: 500;
     font-style: normal;
     font-size: 13.7rem;
     margin: 1rem;
-    color: #1919d9;
-    /* color: transparent;
+    color: #1919d9; */
+  /* color: transparent;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #1919d9; */
-  }
-  .link_textx {
-    /* color: #1919d9;
+
+  /* .link_textx { */
+  /* color: #1919d9;
     font-family: quasimoda, sans-serif;
     font-weight: 400;
     font-style: bold;
     font-size: 1.5rem; */
-    font-family: jeanne-moderno-titling, serif;
+  /* font-family: jeanne-moderno-titling, serif;
     font-weight: 500;
     font-style: normal;
     font-size: 13.7rem;
-    margin: 1rem;
-    /* color: transparent;
+    margin: 1rem; */
+  /* color: transparent;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke-width: 1px; */
-    -webkit-text-stroke-color: #1919d9;
-  }
+  /* -webkit-text-stroke-color: #1919d9; */
+  /* } */
 }

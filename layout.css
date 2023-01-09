@@ -82,6 +82,12 @@ img {
   margin: 1rem;
 }
 
+.col_portofolio h3 {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  margin-top: 1rem;
+}
+
 .oversigt_projects {
   margin-top: 8.5rem;
 }
@@ -97,6 +103,15 @@ img {
   text-align: center;
 }
 
+.center a {
+  color: #1919d9;
+  font-family: jeanne-moderno-titling, serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 5.9rem;
+  text-align: center;
+}
+
 .col_x {
   margin: 3.5rem;
 }
@@ -108,14 +123,6 @@ img {
 .empty_col {
   margin: 3.5rem;
 }
-
-/* .name_footer {
-  position: fixed;
-  top: 9rem;
-  left: 0;
-  bottom: 1px;
-  width: 27px;
-  /* overflow-y: scroll; */
 
 .icons_footer {
   position: fixed;
@@ -153,14 +160,6 @@ li a {
   /* background-color: rgb(156, 82, 82); */
   background-color: #ffffff;
 }
-
-/* .pind1 {
-  position: absolute;
-  margin-top: 46rem;
-  height: 0.09rem;
-  width: 18rem;
-  background-color: #1919d9;
-} */
 
 .pind2 {
   position: fixed;
@@ -665,6 +664,18 @@ li a {
     margin-left: 2.5rem;
   }
 
+  .col_portofolio {
+    margin-top: 1rem;
+  }
+
+  .col_portofolio h3 {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+  }
+
   .center {
     background-color: #f8f8f8;
     border: 1px solid #1919d9;
@@ -675,6 +686,15 @@ li a {
     align-items: center;
     text-align: center;
     margin-left: 5rem;
+  }
+
+  .center a {
+    font-family: jeanne-moderno-titling, serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 13.7rem;
+    margin: 1rem;
+    color: #1919d9;
   }
 
   footer p {
