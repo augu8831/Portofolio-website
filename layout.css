@@ -18,6 +18,12 @@ body {
   flex-direction: column;
 }
 
+video {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 header {
   margin-bottom: 7rem;
 }
@@ -67,7 +73,7 @@ aside img {
 }
 
 .col {
-  margin: 2rem;
+  margin: 1.5rem;
 }
 
 .article_col {
@@ -80,8 +86,9 @@ aside img {
 
 .col_projects {
   /* margin: 1rem; */
-  border: 1px solid #1919d9;
-  margin-left: 2.5rem;
+  /* border: 1px solid #1919d9; */
+  margin-left: 2rem;
+  margin-right: 0rem;
 }
 
 .col_portofolio {
@@ -89,8 +96,8 @@ aside img {
 }
 
 .col_portofolio h3 {
-  writing-mode: vertical-rl;
-  text-orientation: mixed;
+  /* writing-mode: vertical-rl;
+  text-orientation: mixed; */
   margin-top: 1rem;
 }
 
@@ -239,6 +246,14 @@ li a {
   background: #1919d9;
 }
 
+.grid_video {
+  grid-template-columns: 1fr;
+  max-width: 800px;
+  margin: auto;
+  /* padding-bottom: 5rem;
+  padding-top: 3rem; */
+}
+
 .grid_1_1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -256,8 +271,9 @@ li a {
 
 .grid_1_1_1 {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
 }
+
 .col_work {
   margin: 35rem;
 }
@@ -762,8 +778,11 @@ li a {
     margin: 1rem;
   }
   .col_projects {
-    border: 1px solid #1919d9;
-    margin-left: 2.5rem;
+    /* border: 1px solid #1919d9; */
+    margin-left: 2rem;
+    margin-bottom: 3rem;
+    margin-right: 2rem;
+    margin-top: 3rem;
   }
 
   .col_portofolio {
@@ -870,7 +889,11 @@ li a {
   .col_info:hover .fade2 {
     opacity: 1;
   }
-
+  .grid_video {
+    grid-template-columns: 1fr;
+    max-width: 950px;
+    margin: auto;
+  }
   .image {
     display: block;
     width: 100%;
@@ -929,6 +952,14 @@ li a {
   border-radius: 3px 0 0 3px;
 }
 
+.next {
+  text-decoration: none;
+}
+.prev,
+.next a {
+  text-decoration: none;
+}
+
 .prev:hover,
 .next:hover {
   background-color: rgba(253, 253, 253, 0.631);
@@ -939,7 +970,7 @@ li a {
   height: 7px;
   width: 7px;
   margin: 0 2px;
-  background-color: #0037ff;
+  background-color: #404f85;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;

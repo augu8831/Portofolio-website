@@ -4,18 +4,9 @@ body {
   background-color: #f8f8f8;
 }
 
-/* Initially, hide the extra text that
-can be revealed with the button */
-
 #show {
-  /* Display nothing for the element */
   display: none;
 }
-
-/* ol li {
-  text-decoration: none;
-  text-align: left;
-} */
 
 dl {
   color: #08086c;
@@ -92,7 +83,7 @@ h4 {
 .h1 {
   position: absolute;
   top: 8rem;
-  left: -13.5rem;
+  left: -12.7rem;
   font-family: jeanne-moderno-titling, serif;
   font-weight: 500;
   font-style: normal;
@@ -107,7 +98,7 @@ h4 {
 .h1_1 {
   position: absolute;
   top: 5rem;
-  left: -10rem;
+  left: -9rem;
   -webkit-transform: rotate(-90deg);
   font-family: jeanne-moderno-titling, serif;
   font-weight: 500;
@@ -123,13 +114,13 @@ h4 {
   font-family: jeanne-moderno-titling, serif;
   font-weight: 500;
   font-style: normal;
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: #1919d9;
   align-items: center;
-  color: transparent;
+  /* color: transparent;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: #1919d9;
+  -webkit-text-stroke-color: #1919d9; */
   text-align: center;
 }
 
@@ -393,8 +384,10 @@ nav {
     font-weight: 500;
     font-style: normal;
     font-size: 4rem;
+    margin-top: 10rem;
+    margin-bottom: 5rem;
     color: #1919d9;
-    align-items: center;
+    :center ;
     color: transparent;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke-width: 1px;
