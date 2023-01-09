@@ -4,6 +4,19 @@ body {
   background-color: #f8f8f8;
 }
 
+/* Initially, hide the extra text that
+can be revealed with the button */
+
+#show {
+  /* Display nothing for the element */
+  display: none;
+}
+
+/* ol li {
+  text-decoration: none;
+  text-align: left;
+} */
+
 dl {
   color: #08086c;
   font-family: objektiv-mk1, sans-serif;
@@ -145,12 +158,12 @@ h4 {
 a {
   font-family: objektiv-mk1, sans-serif;
   /* letter-spacing: 2px; */
-  font-weight: 400;
+  font-weight: 500;
   font-style: normal;
-  font-size: 0.8rem;
+  font-size: 0.6rem;
   font-style: normal;
-  text-decoration: none;
-  color: #ff7a59;
+  text-decoration: underline;
+  color: #1919d9;
 }
 
 /* .link_text {
