@@ -29,7 +29,7 @@ header {
 }
 
 footer p {
-  text-align: right;
+  text-align: center;
   margin-top: auto;
   margin-right: 0.5rem;
   font-size: 0.8rem;
@@ -73,6 +73,9 @@ aside img {
 }
 
 .col {
+  /* margin-top: 3rem;
+  margin-left: 2rem;
+  margin-right: 2rem; */
   margin: 1.5rem;
 }
 
@@ -96,9 +99,7 @@ aside img {
 }
 
 .col_portofolio h3 {
-  /* writing-mode: vertical-rl;
-  text-orientation: mixed; */
-  margin-top: 1rem;
+  margin-top: 1.5rem;
 }
 
 .oversigt_projects {
@@ -430,7 +431,7 @@ li a {
   grid-column-start: span 2;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 800px) {
   header {
     margin-bottom: 5rem;
   }
@@ -855,10 +856,7 @@ li a {
   }
 
   .col_aboutme {
-    margin-top: 0;
-    margin-left: 2rem;
-    margin-right: 2rem;
-    margin-bottom: 1rem;
+    margin: 2rem;
   }
 
   .col_opgavetekst {
@@ -918,6 +916,10 @@ li a {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
+  }
+
+  .box {
+    display: flex;
   }
 }
 
