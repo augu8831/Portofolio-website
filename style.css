@@ -161,49 +161,6 @@ a {
   color: #1919d9;
 }
 
-/* .link_text {
-  color: #1919d9;
-  font-family: jeanne-moderno-titling, serif;
-  font-weight: 500;
-  font-style: normal;
-  font-size: 5.9rem;
-  text-align: center; */
-/* border: 1px solid #1919d9; */
-
-.link_textx {
-  /* color: #1919d9;
-  font-family: quasimoda, sans-serif;
-  font-weight: 400;
-  font-style: bold;
-  font-size: 1.5rem; */
-  /* font-family: jeanne-moderno-titling, serif;
-  font-weight: 500;
-  font-style: normal;
-  font-size: 5.9rem;
-  color: #1919d9;
-  align-items: center; */
-  /* color: transparent;
-  -webkit-text-fill-color: transparent;
-  -webkit-text-stroke-width: 1px; */
-  /* -webkit-text-stroke-color: #1919d9; */
-}
-
-.link_text1 {
-  /* color: #1919d9;
-  font-family: quasimoda, sans-serif;
-  font-weight: 400;
-  font-style: bold;
-  font-size: 1.5rem; */
-  /* font-family: jeanne-moderno-titling, serif;
-  font-weight: 500;
-  font-style: normal;
-  font-size: 5rem;
-  color: transparent;
-  -webkit-text-fill-color: transparent;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: #1919d9; */
-}
-
 .h1_work {
   font-family: jeanne-moderno-titling, serif;
   font-weight: 500;
@@ -229,25 +186,14 @@ a {
 }
 
 .h3_class {
-  /* position: relative;
-  left: 18rem;
-  top: 6.5rem; */
   writing-mode: vertical-rl;
   text-orientation: mixed;
   position: fixed;
   top: 1rem;
   right: 1rem;
-  /* overflow-y: scroll; */
   writing-mode: verstical-rl;
   text-orientation: mixed;
 }
-
-/* .h3_class1 {
-  writing-mode: vertical-rl;
-  text-orientation: mixed;
-  margin-left: -5rem;
-  margin-top: 1rem;
-} */
 
 .h1_x {
   font-family: jeanne-moderno-titling, serif;
@@ -385,7 +331,7 @@ nav {
     font-family: jeanne-moderno-titling, serif;
     font-weight: 500;
     font-style: normal;
-    font-size: 4rem;
+    font-size: 3.3rem;
     margin-top: 10rem;
     margin-bottom: 5rem;
     color: #1919d9;
@@ -410,7 +356,7 @@ nav {
     font-family: jeanne-moderno-titling, serif;
     font-weight: 500;
     font-style: normal;
-    font-size: 5rem;
+    font-size: 6.5rem;
   }
 
   .h1_xx {

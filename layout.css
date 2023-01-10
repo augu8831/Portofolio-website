@@ -8,10 +8,6 @@ html {
   box-sizing: border-box;
 }
 
-/* section {
-  margin-top: 3rem;
-} */
-
 body {
   min-height: 100vh;
   display: flex;
@@ -26,14 +22,6 @@ video {
 
 header {
   margin-bottom: 7rem;
-}
-
-.galleri_fade {
-  animation-name: vertical-fade_kf;
-  animation-duration: 600ms;
-  animation-iteration-count: 1;
-  animation-timing-function: linear;
-  animation-fill-mode: both;
 }
 
 footer p {
@@ -60,13 +48,6 @@ img {
   grid-template-columns: 90% 0.5fr;
 }
 
-/* .img_about {
-  border-radius: 50%;
-  filter: grayscale();
-  width: 100%;
-  height: auto;
-} */
-
 aside img {
   border-radius: 50%;
   filter: grayscale();
@@ -82,9 +63,14 @@ aside img {
 
 .col {
   margin: 1.5rem;
+  padding-left: 0.5rem;
 }
 
 .article_col {
+  margin: 2rem;
+}
+
+.article_colx {
   margin: 2rem;
 }
 
@@ -98,7 +84,8 @@ aside img {
 }
 
 .col_portofolio {
-  margin: 1rem;
+  margin: 1.5rem;
+  padding-left: 0.5rem;
 }
 
 .col_portofolio h3 {
@@ -180,7 +167,7 @@ aside img {
   width: 100%;
   opacity: 0;
   transition: 0.5s ease;
-  background-color: #e2e2efae;
+  background-color: #ffffffd6;
   border-radius: 50%;
 }
 
@@ -399,6 +386,9 @@ li a {
 }
 
 @media (min-width: 900px) {
+  .article_colx {
+    margin: 0.5rem;
+  }
   header {
     margin-bottom: 5rem;
   }
@@ -462,16 +452,6 @@ li a {
     width: 35rem;
     background-color: white;
   }
-
-  /* .rectangle2 {
-    position: relative;
-    margin-top: 1rem;
-    margin-left: 30rem;
-    margin-right: 30rem;
-    height: 76rem;
-    width: 20rem;
-    background-color: white;
-  } */
 
   .name_footer {
     /* position: -webkit-sticky;
@@ -792,7 +772,6 @@ li a {
 
   aside {
     float: right;
-    /* margin: 0 1.5%; */
     width: 40%;
   }
 
@@ -809,7 +788,6 @@ li a {
 
   .section {
     float: left;
-    /* margin: 0 1.5%; */
     width: 60%;
   }
 
@@ -866,7 +844,6 @@ li a {
     font-weight: 200;
     font-size: 0.85rem;
     line-height: 28px;
-    /* letter-spacing: 1px; */
     position: absolute;
     top: 50%;
     left: 50%;
@@ -881,6 +858,16 @@ li a {
     flex-flow: row wrap;
     align-items: flex-start;
     justify-content: space-evenly;
+  }
+
+  .h1_projects {
+    position: relative;
+    top: -5rem;
+    left: 0rem;
+    font-family: jeanne-moderno-titling, serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 6.5rem;
   }
 }
 
