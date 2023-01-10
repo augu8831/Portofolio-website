@@ -28,6 +28,14 @@ header {
   margin-bottom: 7rem;
 }
 
+.galleri_fade {
+  animation-name: vertical-fade_kf;
+  animation-duration: 600ms;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  animation-fill-mode: both;
+}
+
 footer p {
   text-align: center;
   margin-top: auto;
@@ -73,9 +81,6 @@ aside img {
 }
 
 .col {
-  /* margin-top: 3rem;
-  margin-left: 2rem;
-  margin-right: 2rem; */
   margin: 1.5rem;
 }
 
@@ -88,8 +93,6 @@ aside img {
 }
 
 .col_projects {
-  /* margin: 1rem; */
-  /* border: 1px solid #1919d9; */
   margin-left: 2rem;
   margin-right: 0rem;
 }
@@ -158,7 +161,6 @@ aside img {
   font-weight: 200;
   font-size: 0.7rem;
   line-height: 28px;
-  /* letter-spacing: 1px; */
   position: absolute;
   top: 50%;
   left: 50%;
@@ -371,41 +373,6 @@ li a {
   object-fit: cover;
 }
 
-.img_galleri_04 {
-  position: relative;
-  width: 100px;
-  height: 300px;
-  /* aspect-ratio: 3.1/10; */
-  top: 0%;
-  left: 20%;
-}
-
-.img_galleri_04_shots {
-  position: relative;
-  width: 100px;
-  height: 100px;
-  /* aspect-ratio: 3.1/10; */
-  top: 10%;
-  left: 30%;
-}
-
-.img_galleri_04_flaske {
-  position: relative;
-  width: 45px;
-  height: 150px;
-  /* aspect-ratio: 3.1/10; */
-  top: 0%;
-}
-
-.img_galleri_04_flaske2 {
-  position: relative;
-  width: 45px;
-  height: 150px;
-  /* aspect-ratio: 3.1/10; */
-  top: 10%;
-  left: 50%;
-}
-
 .img_galleri_04xx {
   position: relative;
   width: 500px;
@@ -431,7 +398,7 @@ li a {
   grid-column-start: span 2;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 900px) {
   header {
     margin-bottom: 5rem;
   }
@@ -767,19 +734,10 @@ li a {
     grid-row: 2/4;
   }
 
-  /* 
-  .img_about {
-    border-radius: 50%;
-    filter: grayscale();
-    width: 350px;
-    height: 350px;
-  } */
-
   .col_textbox {
     margin: 1rem;
   }
   .col_projects {
-    /* border: 1px solid #1919d9; */
     margin-left: 2rem;
     margin-bottom: 3rem;
     margin-right: 2rem;

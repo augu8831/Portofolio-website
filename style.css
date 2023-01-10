@@ -76,7 +76,6 @@ h4 {
   font-family: quasimoda, sans-serif;
   font-weight: 400;
   font-size: 1.1rem;
-  text-align: right;
   padding-right: 1rem;
 }
 
@@ -343,7 +342,7 @@ nav {
   -webkit-text-stroke-color: #08086c; */
 }
 
-@media (min-width: 800px) {
+@media (min-width: 900px) {
   h3 {
     color: #1919d9;
     font-family: quasimoda, sans-serif;
@@ -476,28 +475,12 @@ nav {
   }
 
   .h3_class {
-    /* position: relative; */
-    /* left: 35rem;
-    top: 5rem; */
     position: fixed;
     top: 9rem;
     right: 1rem;
-    /* overflow-y: scroll; */
     writing-mode: verstical-rl;
     text-orientation: mixed;
   }
-
-  /* .h3_class1 {
-    writing-mode: vertical-rl;
-    text-orientation: mixed;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    margin-left: 2rem;
-  } */
-
-  /* .p_class {
-    margin-top: 4rem;
-  } */
 
   .h3 {
     color: #1919d9;
@@ -506,53 +489,12 @@ nav {
     font-size: 1.5rem;
     text-align: right;
   }
-
-  .link_text1 {
-    /* position: absolute;
-    top: 0;
-    left:0; */
-    /* color: #1919d9;
-    font-family: jeanne-moderno-titling, serif;
-    font-weight: 100;
-    font-style: normal;
-    font-size: 2.3rem;
-    color: transparent;
-    -webkit-text-fill-color: transparent;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #1919d9; */
+  .h4 {
+    color: #1919d9;
+    font-family: quasimoda, sans-serif;
+    font-weight: 400;
+    font-size: 1.1rem;
+    padding-right: 1rem;
+    text-align: right;
   }
-
-  /* .link_text { */
-  /* color: #1919d9;
-    font-family: quasimoda, sans-serif;
-    font-weight: 400;
-    font-style: bold;
-    font-size: 1.5rem; */
-  /* font-family: jeanne-moderno-titling, serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 13.7rem;
-    margin: 1rem;
-    color: #1919d9; */
-  /* color: transparent;
-    -webkit-text-fill-color: transparent;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #1919d9; */
-
-  /* .link_textx { */
-  /* color: #1919d9;
-    font-family: quasimoda, sans-serif;
-    font-weight: 400;
-    font-style: bold;
-    font-size: 1.5rem; */
-  /* font-family: jeanne-moderno-titling, serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 13.7rem;
-    margin: 1rem; */
-  /* color: transparent;
-    -webkit-text-fill-color: transparent;
-    -webkit-text-stroke-width: 1px; */
-  /* -webkit-text-stroke-color: #1919d9; */
-  /* } */
 }
