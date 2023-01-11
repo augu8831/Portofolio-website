@@ -37,7 +37,6 @@ h2 {
   color: #1919d9;
   font-family: quasimoda, sans-serif;
   font-weight: 400;
-  font-style: bold;
   font-size: 1rem;
 }
 
@@ -57,9 +56,9 @@ h4 {
 }
 
 .h2_forside {
-  position: fixed;
-  left: 14rem;
-  top: 24rem;
+  position: absolute;
+  left: 11rem;
+  top: 8rem;
   font-size: 0.7rem;
 }
 
@@ -116,7 +115,7 @@ h4 {
   font-family: jeanne-moderno-titling, serif;
   font-weight: 500;
   font-style: normal;
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: #1919d9;
   align-items: center;
   margin-bottom: 3rem;
@@ -147,7 +146,7 @@ h4 {
   padding-left: 3px;
   padding-top: 5px;
   font-size: 23px;
-  text-align: rigth;
+  text-align: right;
 }
 
 a {
@@ -191,8 +190,6 @@ a {
   position: fixed;
   top: 1rem;
   right: 1rem;
-  writing-mode: verstical-rl;
-  text-orientation: mixed;
 }
 
 .h1_x {
@@ -375,7 +372,7 @@ nav {
 
   .h1_about {
     position: relative;
-    left: -3;
+    /* left: -3; */
     font-family: jeanne-moderno-titling, serif;
     font-weight: 500;
     font-style: normal;
@@ -421,11 +418,11 @@ nav {
   }
 
   .h3_class {
+    writing-mode: verstical-rl;
+    text-orientation: mixed;
     position: fixed;
     top: 9rem;
     right: 1rem;
-    writing-mode: verstical-rl;
-    text-orientation: mixed;
   }
 
   .h3 {
@@ -442,5 +439,52 @@ nav {
     font-size: 1.1rem;
     padding-right: 1rem;
     text-align: right;
+  }
+}
+
+.mobil-menu li:hover {
+  background: none;
+  border-bottom: none;
+}
+
+.mobil-menu li {
+  transition: none;
+}
+.mobil-menu {
+  /* margin-top: 10px; */
+  height: 160px;
+  display: none;
+}
+
+.mobil-menu a {
+  text-decoration: none;
+  color: #ff7a59;
+  gap: 0.2rem;
+}
+
+.menu-v {
+  display: block;
+}
+
+.burgermenu {
+  margin: 0.5rem;
+  width: 30px;
+}
+
+.burgermenu-container {
+  display: none;
+}
+
+@media only screen and (max-width: 800px) {
+  .nav_style {
+    display: none;
+  }
+
+  .burgermenu-container {
+    display: block;
+  }
+
+  nav {
+    display: none;
   }
 }

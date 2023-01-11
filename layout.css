@@ -491,13 +491,6 @@ li a {
     width: 27px;
   }
 
-  /* .pind1 {
-    position: relative;
-    height: 1px;
-    width: 70rem;
-    background-color: #1919d9;
-  } */
-
   .pind2 {
     position: fixed;
     top: 5rem;
@@ -676,7 +669,7 @@ li a {
     width: 1000px;
     height: 250px;
     top: 20%;
-    left: 20;
+    /* left: 20; */
   }
 
   .img_galleri_04x {
@@ -743,8 +736,8 @@ li a {
   .center {
     background-color: #f8f8f8;
     border: 1px solid #1919d9;
-    width: 310px;
-    height: 310px;
+    width: 350px;
+    height: 350px;
     border-radius: 50%;
     display: flex;
     align-items: center;
