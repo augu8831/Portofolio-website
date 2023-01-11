@@ -1,6 +1,4 @@
 body {
-  /* background: #fcfcfa; */
-  /* background-color: #edebe1; */
   background-color: #f8f8f8;
 }
 
@@ -8,14 +6,6 @@ body {
   display: none;
 }
 
-dl {
-  color: #08086c;
-  font-family: objektiv-mk1, sans-serif;
-  font-weight: 200;
-  font-size: 0.85rem;
-  line-height: 28px;
-  letter-spacing: 1px;
-}
 p {
   color: #08086c;
   font-family: objektiv-mk1, sans-serif;
@@ -90,14 +80,14 @@ h4 {
   -webkit-text-fill-color: #1919d9;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: transparent;
-  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
 }
 
 .h1_1 {
   position: absolute;
   top: 5rem;
   left: -9rem;
-  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
   font-family: jeanne-moderno-titling, serif;
   font-weight: 500;
   font-style: normal;
@@ -106,9 +96,6 @@ h4 {
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #1919d9;
-}
-
-.col_aboutme h1 {
 }
 
 .h1_2 {
@@ -120,25 +107,7 @@ h4 {
   align-items: center;
   margin-bottom: 3rem;
   margin-top: 3rem;
-  /* color: transparent;
-  -webkit-text-fill-color: transparent;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: #1919d9; */
   text-align: center;
-}
-
-.footer_class {
-  writing-mode: vertical-rl;
-  text-orientation: mixed;
-  font-family: objektiv-mk1, sans-serif;
-  font-size: 0.8rem;
-  /* letter-spacing: 2px; */
-  /* color: #08086c; */
-  color: #d95c19;
-  /* font-family: quasimoda, sans-serif; */
-  font-weight: 400;
-  font-style: normal;
-  /* padding-bottom: 1rem; */
 }
 
 .fa {
@@ -151,7 +120,6 @@ h4 {
 
 a {
   font-family: objektiv-mk1, sans-serif;
-  /* letter-spacing: 2px; */
   font-weight: 500;
   font-style: normal;
   font-size: 0.6rem;
@@ -274,15 +242,10 @@ nav {
 .text {
   padding: 16px 32px;
   font-family: objektiv-mk1, sans-serif;
-  /* letter-spacing: 2px; */
   font-weight: 200;
   font-style: normal;
   font-size: 2rem;
   color: #08086c;
-  /* color: transparent; */
-  /* -webkit-text-fill-color: transparent;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: #08086c; */
 }
 
 @media (min-width: 900px) {
@@ -297,9 +260,7 @@ nav {
     position: absolute;
     top: 9rem;
     left: -18rem;
-    /* writing-mode: vertical-rl;
-    text-orientation: sideways; */
-    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
     font-family: jeanne-moderno-titling, serif;
     font-weight: 500;
     font-style: normal;
@@ -311,9 +272,7 @@ nav {
     position: absolute;
     top: 4rem;
     left: -13rem;
-    -webkit-transform: rotate(-90deg);
-    /* writing-mode: vertical-rl;
-    text-orientation: sideways-right; */
+    transform: rotate(-90deg);
     font-family: jeanne-moderno-titling, serif;
     font-weight: 500;
     font-style: normal;
@@ -332,11 +291,6 @@ nav {
     margin-top: 10rem;
     margin-bottom: 5rem;
     color: #1919d9;
-    /* color: transparent;
-    -webkit-text-fill-color: transparent;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #1919d9;
-    text-align: center; */
   }
 
   .h2_forside {
@@ -371,22 +325,18 @@ nav {
   }
 
   .h1_about {
-    position: relative;
-    /* left: -3; */
     font-family: jeanne-moderno-titling, serif;
     font-weight: 500;
     font-style: normal;
-    font-size: 7rem;
+    font-size: 6.5rem;
   }
 
   .h1_aboutx {
-    position: relative;
     margin-bottom: 1.5rem;
-    left: 6rem;
     font-family: jeanne-moderno-titling, serif;
     font-weight: 500;
     font-style: normal;
-    font-size: 7rem;
+    font-size: 6.5rem;
     color: transparent;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke-width: 1px;
@@ -418,7 +368,6 @@ nav {
   }
 
   .h3_class {
-    writing-mode: verstical-rl;
     text-orientation: mixed;
     position: fixed;
     top: 9rem;
@@ -451,8 +400,6 @@ nav {
   transition: none;
 }
 .mobil-menu {
-  /* margin-top: 10px; */
-  height: 160px;
   display: none;
 }
 

@@ -54,7 +54,6 @@ img {
 
 aside img {
   border-radius: 50%;
-  filter: grayscale();
   width: 100%;
   height: auto;
 }
@@ -189,7 +188,6 @@ aside img {
   width: 100%;
   height: auto;
   border-radius: 50%;
-  filter: grayscale();
   width: 100%;
   height: auto;
 }
@@ -774,7 +772,6 @@ li a {
 
   aside img {
     border-radius: 50%;
-    filter: grayscale();
     width: 100%;
     height: auto;
   }
@@ -830,7 +827,6 @@ li a {
     width: 100%;
     height: auto;
     border-radius: 50%;
-    filter: grayscale();
     width: 100%;
     height: auto;
   }
